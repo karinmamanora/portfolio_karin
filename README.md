@@ -16,6 +16,7 @@ Hi, I'm a 60-year-old Python beginner and lifelong internet enthusiast. I've bee
 - one minor project a week
 - 
 ## Projects
+https://karinmamanora.github.io/portfolio_karin/startup_generator.html
 
 ## Goals for 2026
 - Build more Python projects
