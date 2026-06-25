@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quirky AI Startup Generator</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 50px auto;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #idea {
+            margin-top: 30px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>💡 Quirky AI Startup Generator</h1>
+
+    <p>Click the button for a random startup idea.</p>
+
+    <button onclick="generateIdea()">
+        Generate Idea
+    </button>
+
+    <div id="idea"></div>
+
+    <script>
+
+        const ideas = [
+            "AI startup that walks dogs using autonomous garden drones",
+            "Robot that interprets cat meows as business strategies",
+            "App that transforms your mood into a personalized garden design",
+            "AI that creates travel journals for places that don't exist"
+        ];
+
+        function generateIdea() {
+
+            const randomIndex =
+                Math.floor(Math.random() * ideas.length);
+
+            document.getElementById("idea").innerText =
+                ideas[randomIndex];
+        }
+
+    </script>
+
+</body>
+</html>
